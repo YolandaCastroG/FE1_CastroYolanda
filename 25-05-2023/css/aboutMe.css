@@ -1,0 +1,80 @@
+#container{
+    margin: 0px 60px 50px 60px;
+}
+
+h1, p, a, h2, h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.about-me-header {
+    background-color: #FEC8D8;
+    display: grid;
+    text-align: center;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+.title {
+    background-color: #D291BC;
+}
+
+.about-me-header h1 {
+    color:#fff0f6;
+    margin-left: 35px;
+}
+
+.icons-begin{
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    justify-content: end;
+    margin-bottom: 6px;
+}
+
+.icons {
+    align-items: center;
+    display: block;
+    justify-content: space-between;
+    margin-top: 0.5px;
+}
+
+.profile {
+    text-align: justify;
+}
+
+.job > div > p {
+    font-size: italic;
+}
+
+.education-container, .job-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date {
+    margin: 0px 20px 0px 5px;
+}
+
+.footer-container {
+    background-color: #fff0f6;
+    display: flex;
+    padding: 20px;
+    padding-bottom: 16px;
+    justify-content: right;
+}
