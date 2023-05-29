@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+header{
+    background-color: #E6E6E6;
+}
+header img{
+    width: 100px;
+    height: 146.37px;
+   
+}
+.header{
+
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+h1, h3{
+    
+    background-color: #C4C4C4;
+    color: #005677;
+    letter-spacing: 7px;
+}
+
+/* datos personales */
+main{
+    margin-top: 100px;
+}
+
+.datos{
+    margin: 20px;
+}
+span{
+    font-weight: bold;
+}
+
+.parrafo{
+    display: flex;
+}
+
+/* footer */
+footer{
+    background-color: #005677;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+footer img{
+    padding-left: 26px;
+    width:20px; 
+    height:20px;
+}
