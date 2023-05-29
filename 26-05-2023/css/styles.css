@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+p, h1, h2, h4, h6, option, a, input::placeholder, input, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.idiomas {
+    background: #222222;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 54px 4px 90px;
+}
+
+.idiomas select {
+    background: transparent;
+    border: 0;
+}
+
+.idiomas option {
+    background: #000000;
+    border-color: #000000;
+}
+
+.navegacion {
+    background: #F0A83E;
+    padding: 19px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacion .contendeor-navegacion, 
+.contenedor-suscribete form,
+.contenedor-footer .localidad,
+.contenedor-footer .telefono,
+.contenedor-footer .email {
+    display: flex;
+}
+
+.navegacion a {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    text-decoration: none;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-imagen .contenedor-texto .titulo {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contenedor-imagen .contenedor-texto .subtitulo {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3C2313;
+}
+
+.contenedor-imagen .contenedor-texto button {
+    font-size: 16px;
+    font-weight: 400;
+    background: #F0A83E;
+    border-radius: 5px;
+    color: #ffffff;
+    border: 0;
+    padding: 15px 23px;
+}
+
+.contenedor-productos .titulo {
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contenedor-productos .subtitulo {
+    color: #666666;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.contenedor-productos .productos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 49px;
+}
+
+.contenedor-productos article {
+    font-weight: 500;
+    font-size: 15px;
+    background: #FBFAF6;
+    padding-bottom: 4px;
+}
+
+.contenedor-productos article h4 {
+    color: #3C2313;
+    text-align: center;
+}
+
+.contenedor-productos article p {
+    color: #F0A83E;
+    text-align: center;
+}
+
+.contenedor-contactanos {
+    margin-top: 78px;
+}
+
+.contenedor-contactanos h2 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #3C2313;
+    padding-bottom: 20px;
+}
+
+.contenedor-contactanos input {
+    font-weight: 400;
+    font-size: 9px;
+    color: #ffffff;
+    background: #3C2313;
+    border-radius: 15px;
+    padding: 14px;
+    margin-bottom: 10px;
+    max-width: 340px;
+    width: 100%;
+}
+
+.contenedor-contactanos input::placeholder {
+    color: #ffffff;
+}
+
+.contenedor-contactanos button {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px 25px;
+    border-radius: 15px;
+    border: 0;
+    margin-top: 31px;
+    color: #ffffff;
+}
+
+.contenedor-contactanos .reset {
+    background-color: #8A8787;
+}
+
+.contenedor-contactanos .submit {
+    background-color: #F0A83E;
+}
+
+.contenedor-suscribete {
+    background: #F0A83E;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 47px 16px 23px;
+}
+
+.contenedor-suscribete h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+}
+
+.contenedor-suscribete h2 img {
+    margin-right: 10px;
+}
+
+.contenedor-suscribete form input {
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 15px 8px;
+    width: 271px;
+    border: #ffffff;
+}
+
+.contenedor-suscribete form button {
+    font-weight: 700;
+    font-size: 9px;
+    border: 0;
+    background: #3C2313;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 12px;
+    margin-left: 10px;
+}
+
+.contenedor-footer {
+    background: #3C2313;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-footer h4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.contenedor-footer p {
+    font-weight: 700;
+    font-size: 10px;
+    color: #8A8787;
+}
+
+.contenedor-footer .contenedor-texto {
+    margin-left: 25px;
+}
+
+.contenedor-footer .telefono, .contenedor-footer .email {
+    margin-top: 20px;
+}
+
+.derechos-autor {
+    background: #222222;
+    padding: 4px;
+}
+
+.derechos-autor h6 {
+    font-weight: 700;
+    font-size: 10px;
+    color: #ffffff;
+}
